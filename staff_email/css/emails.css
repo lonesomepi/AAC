@@ -1,0 +1,15 @@
+html {background: black;}
+
+body {
+  width: 730px;
+  background: white;
+}
+
+p {
+  border: 2px solid orange;
+  border-radius: 5px;
+  text-align: center;
+  width: 70%;
+  margin: auto;
+  padding: 5px;
+}
