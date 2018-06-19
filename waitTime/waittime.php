@@ -83,13 +83,18 @@
 			$reopen = strtotime(date('13:30:00')) - $now;
 			$willReopen = round($reopen / 60);
 
-			//CLOSED to walkins if before 1:30pm or after 11:30
-			if (($now > strtotime(date('11:30:00'))) OR ($now < strtotime(date('13:30:00'))))
+      $reclose = strtotime(date('16:30:00')) - $now;
+			$willClose = round(($reclose / 60) / 60, 2);
+
+
+			//CLOSED Lunch
+			if (($now > strtotime(date('11:30:00'))) && ($now < strtotime(date('13:30:00'))))
 			{
 					$display='Lobby will reopen in <span class="blue">' . $willReopen . ' minutes</span>';
 					$outsideHours = $display;
-			}
-
+			} else {
+        $outsideHours = "Lobby will close in <span class=\"red\">" . $willClose . " hours</span>";
+      }
 
 			//CLOSED if Sunday or Saturday
 			if (($day==6) OR ($day==7)){$display='The Lobby is closed on weekends.';}
@@ -115,7 +120,7 @@
     <div class="lobbyWaitShell">
       <h2>AAC Lobby Wait Time</h2>
       <div id="stats">
-        <p id="currentStudent"><span class="bigNumber"><?php echo $students; ?></span> students waiting</p>
+        <p id="currentStudent"><span class="bigNumber"><?php echo $students; ?></span> <span style="font-weight: 600;">students</span> waiting</p>
 
           <p id="nextStudent">Next student has been waiting:</p>
           <p><span class="mediumNumber darkRed"><?php echo $m; ?></span> <span class="tiny">minutes</span></p>
@@ -133,6 +138,7 @@
         </ul>
       </div>
       <div class="clear"></div>
+
 			<div id="currentTime">
 				<?php if (!empty($outsideHours)) { ?>
 					<p id="closedParagraph"><?php echo $outsideHours; ?></p>
