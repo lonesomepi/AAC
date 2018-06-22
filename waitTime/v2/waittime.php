@@ -5,7 +5,7 @@
 	<link rel="stylesheet" href="waittime.css">
 </head>
 <body>
-	<h1>AAC Lobby Wait Time</h1><?php include("table.php"); ?>
+	<h1>AAC Lobby Wait Time</h1>
 
 	<div class="lobbyWaitShell">
 		<h2>AAC Lobby Wait Time</h2>
