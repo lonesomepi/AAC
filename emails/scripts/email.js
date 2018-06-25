@@ -55,11 +55,9 @@ var sanwllam = "swilliam"
 // Graduate Student Assistants
 var chelmatsn = "cmatson2"
 
-
-
-function email(arg) {
+function emailUFL(arg) {
   document.write("<a href='" + "mailto:" + arg + "@" + hostname + "'>" +  arg + "@" + hostname + "</a>");
 }
-function emailAd(arg) {
+function email(arg) {
   document.write("<a href='" + "mailto:" + arg + "@" + hostnameAd + hostname + "'>" +  arg + "@" + hostnameAd + hostname + "</a>");
 }
