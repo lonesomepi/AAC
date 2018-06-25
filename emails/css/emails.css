@@ -1,0 +1,26 @@
+body {
+  width: 700px;
+  margin: auto;
+}
+
+h2 {
+  margin-top: 30px;
+}
+
+li {
+  font-size: 25px;
+  line-height: 1.6;
+}
+
+
+footer {
+  border-top: 1px solid #333;
+  padding-top: 20px;
+  padding-bottom: 35px;
+  margin-top: 35px;
+}
+
+
+footer p {
+  text-align: center;
+}
