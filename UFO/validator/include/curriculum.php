@@ -1,6 +1,7 @@
 <div class="orange hightlightSlug">
-  <h2><span class="bigNumber">3</span> Curriculum:</h2>
-  <p>Not all preprofessional courses are offered in UF Online.</p>
+  <h2><span class="bigNumber orangeFont">3</span> Curriculum:</h2>
+
+  <p>Please note: UF Online degree are not the same as residential degree offerings</p>
 
   <table id="courseDifferences">
     <tr>
@@ -23,5 +24,5 @@
 
     <input class="submit" type="submit" name="preprofessional" value="submit">
     <div class="clear"></div>
-    
+
 </div>
