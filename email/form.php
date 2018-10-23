@@ -3,13 +3,17 @@
 /*
   About Email();
 
-    1. "email.php":
+    1. "form.php":
       - form template, (+) add fields / inputs here within form
 
       1.2. "include/inputTirggers.php":
         - input / fields required to submit the form
+        - display error information
+          - Error Information: the field responses are lost upon triggering an error
+            - use variables to store the information
+            - use "required" "<input required type="">" for prelimary validations
 
-    2. "includes/formInfo.php":
+    2. "includes/email.php":
       - edit the form recipient
       - edit the types of files submitted
 
@@ -22,7 +26,7 @@
 
 */
 
-  require_once("include/formInfo.php");
+  require_once("include/email.php");
   require_once("include/header.php");
 
 ?>
