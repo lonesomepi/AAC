@@ -1,25 +1,14 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>UFO Validator</title>
-	<link rel="stylesheet" href="../css/master.css">
-</head>
-<body>
-  <h1>UFO Acknowledgement Form</h1>
+<?php
+ 	$thisPage = "0";
+  $submitted = 0;
+  $page = "index";
+	require_once("include/header.php");
+?>
 
-  <form class="" action="index.php" method="post">
-		<?php require("include/understand.php"); ?>
-		<?php require("include/know.php"); ?>
-		<?php require("include/curriculum.php"); ?>
-		<?php require("include/requirements.php"); ?>
-		<?php require("include/submit.php"); ?>
-  </form>
+  <p>Welcome, <?php echo $nameGivenShort; ?>.</p>
 
-	<?php require_once("include/contact.php"); ?>
+	<form class="" action="disclosure.php" method="post">
+		<input type="submit" name="formZero" value="Start Form">
+	</form>
 
-  <footer>
-    <p>End.</p>
-  </footer>
-</body>
-</html>
+<?php require_once("include/footer.php"); ?>

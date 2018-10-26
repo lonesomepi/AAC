@@ -1,0 +1,266 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-size:18px;
+  line-height: 1.5;
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background: #ffefdd;
+  background: #5f89af;
+  overflow-y: scroll;
+}
+
+.container {
+  width: 100%;
+  margin: auto;
+  max-width: 980px;
+  background: white;
+}
+
+header {
+  border-bottom: 1px solid #444;
+  margin-bottom: 1.5rem;
+  background: #efa158;
+  background: white;
+  color: #efa158;
+}
+
+h1 {
+  font-size: 1.8rem;
+  padding-bottom: 1rem;
+  padding-top: .9rem;
+  color: #333;
+  color: #d67c28; /* orange */
+  width: 87%;
+  margin: auto;
+}
+
+nav {
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid #4b6896;
+}
+
+nav ul {
+  width: 87%;
+  margin: auto;
+  max-width: 36.25rem;
+}
+
+nav ul li {
+  float: left;
+  list-style: none;
+  width: 20%;
+  text-align: center;
+  color: #f0f0f0;
+  color: #4b6896;
+  font-size: 1rem;
+}
+
+nav ul li a.thisPage {
+  color: #124391;
+  color: #0e387a;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+nav ul img {
+  width: 1rem;
+}
+
+/* nav ul li a {
+  text-decoration: underline;
+  color: #4b6896;
+} */
+
+
+nav ul li a img {
+  padding-bottom: .2rem;
+  border-bottom: 1px solid #c0c0c0;
+}
+
+
+h2 {
+  width: 87%;
+  margin: auto;
+  margin-bottom: 1.3rem;
+  font-size: 1.3rem;
+  color: #2d2d2d;
+}
+
+p {
+  width: 87%;
+  margin: auto;
+  color: #333;
+}
+
+ul, ol {
+  width: 87%;
+  margin: auto;
+}
+
+.content ul li, .content ol li {
+  width: 87%;
+  margin: auto;
+  margin-top: 1.3rem;
+  color: #333;
+}
+
+
+input {
+  display: block;
+  margin: auto;
+  margin-top: 2rem;
+  padding: .3rem .6rem;
+  outline-color: #2A5DB0;
+  outline-style: solid;
+  outline-width: 2px;
+  background: white;
+}
+
+input:hover {
+  outline-color: #32CD32;
+  outline-style: solid;
+  outline-width: 2px;
+  cursor: pointer;
+}
+
+table {
+  width: 100%;
+  max-width: 40.62rem;
+  margin: auto;
+  margin-top: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+table, tr, th, td {
+  border: 1px solid #333;
+  padding: 5px;
+  font-size: 1.2rem;
+}
+
+table p, td {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+th {
+  color: #444;
+}
+
+td {
+  font-size: 1rem;
+  color: #333;
+}
+
+td a {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+}
+
+td a:hover {
+  background: #ffd8ad;
+}
+
+fieldset {
+  width: 84%;
+  margin: auto;
+  border: none;
+}
+
+#greenThankYouText {
+  color: #32CD32;
+  text-align: center;
+  font-style: italic;
+}
+
+#contactSection a, #contactSection a:visited {
+  color: #2A5DB0;
+}
+
+#contactSection a:hover {
+  color: #1b4891;
+  text-decoration: none;
+}
+
+.displayNone {
+  display: none;
+}
+
+.clear {
+  clear: both;
+}
+
+footer {
+  margin-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+
+footer p {
+  text-align: center;
+  width: 100%;
+  font-style: italic;
+  color: #c0c0c0;
+  font-size: .78rem;
+}
+
+/* master laws */
+
+.tiny {
+  font-size: 10px;
+  /* background: black; */
+  width: 84%;
+  margin-top: .3rem;
+}
+
+.thin {
+  font-size: 11px;
+  color: #333;
+  font-weight: bold;
+}
+
+.light {
+  color: #999;
+}
+
+.red {
+  color: red;
+}
+
+.darkRed {
+  color: #7a0d0d;
+}
+
+.orange {
+  color: #FA4616;
+  font-size: 1.5rem;
+  color: #d67c28;
+}
+
+#majorBlue {
+  background: #6C9AC3;
+}
+
+#majorOrange {
+  background: #E28F41;
+}
+
+.orangeFont {
+  color: #FA4616;
+}
+
+.blueFont {
+  color: #0021A5;
+}
