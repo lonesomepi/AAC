@@ -1,0 +1,594 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+body {
+background: url(../images/bg.gif) repeat-x;
+text-align:center;
+}
+
+a {
+text-decoration:none;
+}
+
+a:link,a:visited {
+color:#0021a5;
+}
+
+a:hover,a:active {
+color:#ff4a00;
+}
+
+acronym {
+border:0;
+font-style:normal;
+}
+
+h1#dept {
+position: relative;
+height: 50px;
+width: 285px;
+font-size: 14px;
+/* \*/
+overflow: hidden;
+/* */
+}
+
+h1#dept a span {
+position: absolute;
+top: 0;
+left: 0;
+display: block;
+background: url(../images/unitHeader.gif);
+width: 100%;
+height: 100%;
+} 
+
+h2#uf{
+font-size: 14px;
+width: 155px;
+height: 50px;
+top:0;
+left: 600px;
+position: absolute;
+/*\*/overflow: hidden;
+font-size: 14px;/**/
+}
+
+h2#uf a span{
+background-image: url(../images/universityOfFlorida.gif);
+top:0;
+left:0;
+display:block;
+position: absolute;
+width: 155px;
+height: 40px;
+font-size: 1px;
+cursor: pointer;
+}
+
+h3,h4 {
+font-weight:400;
+}
+
+p,li {
+	color:#444;
+	font-size:12px;
+	font-family: Trebuchet, Verdana, Arial, Helvetica, sans-serif;
+	line-height: 15px;
+}
+
+ul {
+list-style:none;
+}
+
+ol {
+list-style-type:decimal;
+margin:15px;
+}
+
+
+
+#content {
+	background:#FFF;
+	float:right;
+	position:relative;
+	width:515px;
+	z-index:5;
+	padding-bottom: 12px;
+    min-height: 200px	
+}
+
+#content h3,#secondc h3 {
+	font-size:18px;
+	margin:5px 0 4px 12px;
+	color: #000066;
+}
+
+#content h4,#secondc h4 {
+	color:#0066CC;
+	font:normal 14px Georgia, "Times New Roman", Times, serif;
+	margin:5px 0 5px 13px;
+	border-top-width: 1px;
+	border-top-style: dotted;
+	border-top-color: #0066CC;
+	padding-top: 5px;
+}
+#content h5,#secondc h5 {
+	color:#000000;
+	font:normal 14px Georgia, "Times New Roman", Times, serif;
+	margin:5px 0 5px 13px;
+padding-top: 5px;
+}
+#content h6 {
+	color:#000000;
+	font:normal 12px Georgia, "Times New Roman", Times, serif;
+	margin:5px 0 5px 13px;
+	padding-top: 5px;
+	letter-spacing: 2px;
+}
+
+#secondc h6 {
+	color:#000000;
+	font:normal 12px Georgia, "Times New Roman", Times, serif;
+	margin:5px 0 5px 0px;
+	padding-top: 5px;
+	letter-spacing: 1px;
+}
+
+#content ul {
+margin: 10px;
+}
+
+#content li {
+	line-height: 18px;
+	list-style:disc;
+	margin:6px 0 6px 25px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 13px;
+}
+
+#content ol li {
+	list-style-type:decimal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#content li li {
+padding:0 5px 0 20px;
+}
+
+#content p,#secondc p {
+	line-height:18px;
+	margin:2px 10px 15px 13px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 13px;
+}
+
+#content p a {
+border-bottom:1px dashed #0021A5;
+}
+
+#content li a {
+border-bottom:1px dashed #0021A5;
+}
+
+#content li a:link {
+color:#24b;
+}
+
+#content li a:visited, {
+color:#24b;
+}
+
+#content p a:link,#content p a:visited {
+color:#24b;
+}
+
+#content li a:hover {
+color:#f40;
+}
+
+#content li a:active, {
+color:#f40;
+}
+
+#content p a:hover,#content p a:active {
+color:#f40;
+}
+
+#content p#listing {
+letter-spacing:-1px;
+padding-top:15px;
+text-align:center;
+}
+
+#content ul {
+margin:15px;
+}
+
+#footer {
+	background-color:#FFFFFF;
+	clear:both;
+	color:#FFFFFF;
+	height:50px;
+	padding:10px 0 25px;
+	position:relative;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #CCCCCC;
+}
+
+#footer li {
+border-right:1px solid #000066;
+display:inline;
+/*\*/float:left;/**/
+font-size:100%;
+margin-right:4px;
+padding-right:4px;
+}
+
+#footer ul,#footer p {
+	clear:both;
+	float:left;
+	font-size:60%;
+	line-height:1.4em;
+	width:550px;
+	color: #000066;
+}
+
+/*\*/#footerHome span {
+background:url(../images/uf_large.gif) no-repeat 0 0;
+height:62px;
+position:absolute;
+right:0;
+top:10px;
+width:188px;
+}/**/
+
+#header {
+	height:50px;
+	margin:0 auto;
+	position:relative;
+	text-align:left;
+	width:760px;
+	background-color: #000066;
+}
+
+#mainContainer {
+	background:#006699 url(../images/content_bg.jpg);
+	margin:0 auto;
+	padding:0 0px;
+	position:relative;
+	text-align:left;
+	width:760px;
+}
+
+/* \*/* html #mainContainer {
+background-position: 249px 0;
+}/* */
+
+#priNav {
+	position:relative;
+	top:0;
+	width:240px;
+	z-index: 4;
+	background-color: #006699;
+}
+
+#priNav h2,#footer h3 {
+display:none;
+}
+
+#priNav h3 {
+background:url(../images/pointer.gif) no-repeat 0 11px;
+font:normal 115% Trebuchet MS, Arial, Helvetica, sans-serif;
+letter-spacing:1px;
+}
+
+#priNav li {
+	float:left;
+	font:14px 'Trebuchet MS', verdana, geneva, Arial, Helvetica, sans-serif;
+	color: #336699;
+	width:220px;
+}
+
+#priNav li a, #priNav #active {
+background:url(../images/pointer_small.gif) no-repeat 10px 11px;
+border-bottom:1px dotted #999999;
+color:#FFFFFF;
+display:block;
+letter-spacing:1px;
+padding:5px 0px 5px 20px;
+width:220px;
+}
+
+#priNav p a,#priNav p #active {
+color:#FFFFFF;
+letter-spacing:1px;
+width:220px;
+}
+
+/*\*/* html #priNav li a, * html #priNav #active{
+width:220px;
+}/**/
+
+#priNav p a:visited {
+color:#FFFFFF;
+letter-spacing:1px;
+width:220px;
+}
+
+#priNav #active {
+color: #003300;
+}
+
+#priNav li a:hover {
+	color: #FFFFFF;
+}
+
+#priNav li a:visited {
+	color: #FFFFFF;
+}
+
+#priNav a:hover, #priNav a {
+	color: #FFFF66;
+}
+
+#priNav #active {
+}
+
+#priNav form {
+	padding-top: 2px;
+	padding-left: 20px;
+	width: 220px;
+}
+
+#priNav li a:hover {
+background-color:#003366;
+}
+
+#priNav h4 {
+	background:url(../images/pointer_small.gif) no-repeat 9px 17px;
+	clear:left;
+	letter-spacing:1px;
+	padding:12px 0px 0 20px;
+	font:14px 'Trebuchet MS', verdana, geneva, Arial, Helvetica, sans-serif;
+	color: #FFFFCC;
+	width: 220px;
+}
+
+#priNav p {
+	letter-spacing:1px;
+	padding:7px 0px 0 20px;
+	font:12px 'Trebuchet MS', verdana, geneva, Arial, Helvetica, sans-serif;
+	color: #ffffff;
+	width: 220px;
+}
+
+#footer a:link,a:visited {
+	color: #000066;
+	text-decoration: none;
+}
+#footer a:hover {
+color: #FF6600;
+}
+
+#secHeader {
+height:194px;
+margin-bottom:14px;
+position:relative;
+width:516px;
+}
+
+#secHeader span {
+height:100%;
+position:absolute;
+width:100%;
+}
+#navcontainer {
+    left:0px;
+	padding:0px 0px 0;
+	position:absolute;
+	width:230px;
+	float: left;
+	z-index: 4;
+	height: 532px;
+}
+* html #related li {
+float:none;
+}
+h3#unit {
+font-size: 14px;
+width: 240px;
+height: 110px;
+top:0px;
+left: 0px;
+position: relative;
+/*\*/overflow: hidden;
+font-size: 14px;/**/
+}
+h3#unit a span {
+background-image: url(../images/spacer.gif);
+top:0;
+left:0;
+display:block;
+position: absolute;
+width: 244px;
+height: 110px;
+font-size: 1px;
+cursor: pointer;
+}
+#secondc {
+	float: right;
+	width: 240px;
+	padding-top: 0px;
+	background-color: #FFFFFF;
+	padding-bottom: 8px;
+}
+#callout {
+	float: right;
+	width: 240px;
+	padding-top: 0px;
+	background-color: #F1F1F1;
+	padding-bottom: 8px;
+	margin-left: 6px;
+}
+#photos, #photos2 {
+	float: right;
+	width: 180px;
+	padding-top: 0px;
+	background-color: #FFFFFF;
+	padding-bottom: 8px;
+}
+#photos p, #photos2 p {
+	font:normal 12px 'Trebuchet MS', verdana, geneva, Arial, Helvetica, sans-serif;
+	color: #333333;
+	line-height: 20px;
+	padding-bottom: 5px;
+}
+#secondc h6 {
+	font-size: 11px;
+	font-family: Georgia, Time, serif;
+	font-weight: normal;
+	padding-left: 14px;
+}
+#flash {
+	width: 516px;
+	height: 200px;
+	overflow: hidden;
+	background-image: url(../images/temp.jpg);
+	background-position: top;
+}
+#priNav a, #priNav a:visited {
+color:#FFFFCC;
+letter-spacing:1px;
+}
+#over {
+	padding-right: 8px;
+	margin-right: 8px;
+}
+.calab {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 11px;
+	background-color: #CCCCCC;
+	padding: 2px;
+	margin: 2px;
+	text-align: center;
+	color: #666666;
+	height: 18px;
+}
+.calmonth {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 11px;
+	background-color: #99CCFF;
+	padding: 2px;
+	margin: 2px;
+	text-align: center;
+	color: #000000;
+}
+.calon {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 11px;
+	background-color: #99CCFF;
+	padding: 2px;
+	margin: 2px;
+	text-align: center;
+}
+.cala {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 11px;
+	background-color: #CCCCCC;
+	padding: 2px;
+	margin: 2px;
+	text-align: center;
+	height: 18px;
+}
+#grants p {
+	font:normal 10px 'Trebuchet MS', verdana, geneva, Arial, Helvetica, sans-serif;
+	color: #333333;
+	line-height: 20px;
+	padding-bottom: 5px;
+}
+
+table.table{
+border:1px solid #000000;
+border-collapse:collapse;
+font-family:Georgia,"Times New Roman",Times,serif;
+font-size:13px;
+margin:5%;
+width:90%;
+
+}
+table.table th{
+background-color:#CECECE;
+border:1px solid #000000;
+font-size:100%;
+font-weight:bold;
+padding:5px;
+}
+
+table.table td{
+border:1px solid #000000;
+padding:5px;
+}
+
+#box{background-color:#c4d7e1;border:1px solid #000000;padding:5px;margin:5px;}
+#box p{}
+
+#phpbcontact{float:right;width:240px;border:1px solid #ff4a00;margin:8px;padding:5px;background-color:#c4d7e1;border-radius:8px;}
+#phpbcontact h3{font-family:Georgia,"Times New Roman",Times,serif;font-weight:strong;font-size:13px;margin:0 0 10px 0px;}
+.input {
+	display: block;
+	font-size:11px;
+	}
+	
+	.btn{background-color:#FF4a00;padding:4px;color:#000066;border-radius:8px;border:1px solid #000066;margin:10px;font-weight:bold;}
+	.btn:hover{background-color:#000066;color:#FF4a00;border:1px solid #FF4a00;}
+
+.input span {
+  position: absolute;
+  z-index: 1;
+  cursor: text;
+  pointer-events: none;
+  color: #999;
+
+  /* Input padding + input border */
+  padding: 3px;
+  /* Firefox does not respond well to different line heights. Use padding instead. */
+  line-height: 15px;
+  /* This gives a little gap between the cursor and the label */
+  margin-left: 2px;
+}
+
+.input span.required{color:red;}
+.input input, .input textarea, .input select {
+  z-index: 0;
+  padding: 3px;
+  margin: 0 0 10px 0;
+  font: inherit;
+  line-height: 13px;
+}
+.input select {
+
+  /* Unfortunately selects don't respond well to padding. They need an explicit height. */
+  height: 30px;
+}
+
+
+.socialmedia {display:inline;}
+.socialmedia img {opacity: 0.6;}
+.socialmedia img:hover {opacity: 1;}
+
+#priNav img{border:0px;}

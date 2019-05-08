@@ -1,0 +1,337 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  font-family: "SF Pro Display",SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+a {
+  color: #2A5DB0;
+}
+
+header {
+  background: #333333;
+  color: white;
+}
+
+nav {
+  max-width: 1200px;
+  margin: auto;
+}
+
+nav ul li {
+  float: left;
+  padding: .9rem 0;
+  width: 16.5%;
+  text-align: center;
+  list-style: none;
+  font-size: .5rem;
+}
+
+nav li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  opacity: .65;
+}
+
+#content {
+  padding-bottom: 2.81rem;
+  width: 100%;
+  max-width: 980px;
+  margin: auto;
+}
+
+h1 {
+  font-weight: 600;
+  letter-spacing: 0;
+  color: #111;
+  font-size: 1.6rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-left: 1rem;
+  padding-right: 1rem;
+}
+
+p {
+  font-size: 1.18rem;
+  margin-top: 1rem;
+  color: #222;
+  font-weight: 400;
+  line-height: 1.21053;
+}
+
+.freeGraphs p {
+  margin-left: 1rem;
+  padding-right: 1rem;
+}
+
+section {
+  border: 1px solid gray;
+  /* width: 100%; */
+  max-width: 818px;
+  margin-top: 2.8rem;
+  padding-bottom: 2.81rem;
+  /* padding-right: 3rem; */
+}
+
+h2#formHeader {
+  padding-top: 2rem;
+  padding-left: 1.5rem;
+  font-size: 1.8rem;
+  /* float: left; */
+  color: #333;
+  letter-spacing: -.004rem;
+}
+
+#phpbLogo {
+  width: 15rem;
+  margin-left: 1.5rem;
+  margin-top: 2.81rem;
+}
+
+section p {
+  margin-bottom: .5rem;
+  padding-right: 2rem;
+}
+
+section p, input {
+  margin-left: 1.5rem;
+}
+
+input {
+  width: 81.5%;
+  font-size: 1rem;
+  padding: .4rem .3rem .3rem .3rem;
+}
+
+input[type=text], textarea {
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+  outline: none;
+  border: 1px solid #aaa;
+}
+
+input[type=text]:focus, textarea:focus {
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+  border: 1px solid rgba(81, 203, 238, 1);
+}
+
+form {
+  padding-top: 2.81rem;
+}
+
+h3 {
+  font-size: 1.06rem;
+  margin-left: 1.5rem;
+  margin-top: 2.81rem;
+}
+
+h4 {
+  margin-top: 2rem;
+  margin-left: 1.5rem;
+  padding-right: 2rem;
+  color: #454545;
+}
+
+.checkBoxes input {
+  float: left;
+  margin-top: 1.2rem;
+  margin-left: 1.5rem;
+}
+
+.checkBoxes label {
+  font-size: 1.18rem;
+  margin-top: 1rem;
+  /* margin-bottom: 2.8rem; */
+  color: #222;
+  font-weight: 400;
+  line-height: 1.21053;
+  margin-bottom: .5rem;
+  float: left;
+  margin-left: 1rem;
+}
+
+.checkBoxes p {
+  margin-top: 1.5rem;
+  /* float: left; */
+}
+
+input[type='checkbox'] {
+    width: 1.25rem;
+    height: 1.25rem;
+    background:white;
+    border-radius:5px;
+    border:2px solid #555;
+}
+
+textarea {
+  margin-left: 1.5rem;
+  width: 81.5%;
+}
+
+.binaryBoxes {
+  margin-bottom: 2rem;
+}
+
+.binaryBoxes input, .binaryBoxes p {
+  float: left;
+}
+
+.binaryBoxes input {
+  margin: .5rem 0 0 2.81rem;
+}
+
+.binaryBoxes p {
+  margin: .5rem 0 0 1rem;
+}
+
+
+#textInput {
+  float: left;
+  margin-left: 1.5rem;
+  margin-top: .5rem;
+  width: 60%;
+}
+
+
+#certify {
+  border: 1px solid #d0d0d0;
+  margin: 2.81rem auto;
+
+}
+
+#certify p {
+  /* text-align: center; */
+  width: 85%;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+#certify input {
+  display: block;
+  margin: 1.3rem auto 2rem auto;
+}
+
+#address {
+  margin-top: 2.81rem;
+  margin-bottom: 2.81rem;
+  text-align: center;
+}
+
+#submit {
+  background: linear-gradient(#42a1ec,#0070c9);
+  display: block;
+  margin: auto;
+  /* width: 60%; */
+  width: 80%;
+  margin: 1.8rem auto 2rem auto;
+  color: white;
+  border: 1px solid #07c;
+  border-radius: 4px;
+}
+
+#submit:hover {
+  cursor: pointer;
+	background: linear-gradient(#51a9ee,#147bcd);
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.center {
+  text-align: center;
+}
+
+.clear {
+  clear: both;
+}
+
+#names_container input {
+  width: 50%;
+}
+
+@media screen and (min-width: 650px) {
+
+  nav ul li {
+    font-size: .8rem;
+  }
+
+
+  h1 {
+    margin-top: 5.25rem;
+    margin-left: 0;
+    font-size: 2.5rem;
+  }
+
+  .freeGraphs p {
+    margin-left: 0;
+    padding-right: 1rem;
+  }
+
+  h2#formHeader {
+    padding-top: 2.81rem;
+    padding-left: 2.81rem;
+    font-size: 1.8rem;
+    float: left;
+    color: #333;
+    letter-spacing: -.004rem;
+  }
+
+  h3, h4, .checkBoxes input, .checkBoxes p, textarea, #textInput {
+    margin-left: 2.81rem;
+  }
+
+  #phpbLogo {
+    width: 12.5rem;
+    float: right;
+    margin-right: 1.6rem;
+    margin-top: 3.2rem;
+    /* background: blue; */
+  }
+
+  section p, input {
+    margin-left: 2.81rem;
+  }
+
+  input {
+    width: 85%;
+    font-size: 1rem;
+    padding: .4rem .3rem .3rem .3rem;
+  }
+
+  #names_container input[type="text"] {
+    width: 50%;
+  }
+
+  #middleNameInput {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  textarea {
+    width: 85%;
+  }
+
+  #submit {
+    width: 60%;
+  }
+
+}
+
+.tiny {
+	color: #575757;
+	font-size: .9rem;
+  font-style: italic;
+}

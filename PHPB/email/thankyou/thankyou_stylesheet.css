@@ -1,0 +1,13 @@
+  * {
+    color: #333;
+    font-family: sans-serif;
+  }
+
+  body {
+    font-size: 16px;
+  }
+
+  p, li {
+    color: #222;
+    font-family: sans-serif;
+  }

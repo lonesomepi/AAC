@@ -1,0 +1,192 @@
+
+#desktopFeatures {
+	display: none;
+}
+
+#mobileFeatures {
+	display: block;
+}
+
+#mobileFeatures h4 a {
+	text-decoration: underline;
+}
+
+#mobileFeatures h4 a:hover {
+	text-decoration: none;
+}
+
+.mobileCoreFeatures {
+	margin-top: 1rem;
+}
+
+.mobileCoreFeatures dl {
+	max-width: none;
+	width: 87%;
+	margin: auto;
+	margin-bottom: 1rem;
+}
+
+.mobileCoreFeatures dt {
+	width: 100%;
+	margin: auto;
+	margin-bottom: 1.8rem;
+	outline-style: solid;
+	outline-width: 4px;
+	outline-color: #436f96;
+	outline-color: #2573ba;
+	padding: .6rem 0;
+	color: #405475;
+	color: #476b8c;
+	font-weight: 900;
+	text-align: center;
+	font-size: 1.3rem;
+}
+
+.mobileCoreFeatures dt:hover {
+	cursor: pointer;
+}
+
+.mobileCoreFeatures dd {
+	max-width: 992px;
+	margin: auto;
+	padding-bottom: 2.7rem;
+}
+
+.mobileCoreFeatures h3, .mobileCoreFeatures p {
+	width: 90%;
+}
+
+/* the last (<dd> + footer) have too much padding  */
+#coreFeatureRemovePadding {
+	padding-bottom: 0;
+}
+
+#quotes {
+	width: 45%;
+	display: block;
+	margin: 3rem auto 2.8rem auto;
+}
+
+#thickQuoteLetters {
+	font-weight: 500;
+	font-size: 1.4rem;
+	margin-bottom: 2rem;
+}
+
+
+@media screen and (min-width: 600px) {
+
+		video {
+		width: 84%;
+		width: 70%;
+		display: block;
+		margin: auto;
+		margin-bottom: 1.3rem;
+		border: 1px solid #666;
+	}
+
+	#mobileFeatures {
+		display: none;
+	}
+
+	#desktopFeatures {
+		display: block;
+	}
+
+	#desktopFeatures h4 a {
+		text-decoration: underline;
+	}
+
+	#desktopFeatures h4 a:hover {
+		text-decoration: none;
+	}
+
+
+	/* features features features features features  */
+
+	.features {
+		display: -webkit-flex;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		background: #5b9bd5;
+		background: white;
+		margin: auto;
+		margin-top: 1.9rem;
+	}
+
+	.features h3 {
+		width: 23%;
+		text-align: center;
+		cursor: pointer;
+		padding: .8rem 0;
+		color: #476b8c;
+		/* color: #6C9AC3; */
+		margin: 0;
+		font-size: 1.4rem;
+		border: .3rem solid #2573ba;
+		background: white;
+	}
+
+	.features h3:hover {
+		color: #6893ba;
+		border: .3rem solid #3581c6;
+		border: .3rem solid #519de2;
+		border: .3rem solid #297fce;
+		text-decoration: underline;
+	}
+
+	.features p, .features li {
+		color: white;
+		color: darkblue;
+		font-size: 1rem;
+	}
+
+	.featureShell {
+		max-width: 1500px;
+		margin: auto;
+		border-top: none;
+	}
+
+	.featureShell h3 {
+		margin-top: 0px;
+		padding-top: 1.9rem;
+		font-size: 2.2rem;
+	}
+
+	#feature_prerequisites {
+		display: none;
+	}
+
+	#feature_duration {
+		display: none;
+	}
+
+	#feature_instruction {
+		display: none;
+	}
+
+	#feature_costs {
+		display: none;
+	}
+
+	#quotes {
+		width: 25%;
+		display: block;
+		margin: 4rem auto 2.8rem auto;
+	}
+
+	#thickQuoteLetters {
+		font-weight: 500;
+		font-size: 1.6rem;
+		margin-bottom: 2rem;
+	}
+
+}
+
+@media screen and (min-width: 992px) {
+	#apply {
+		margin-top: .5rem;
+		margin-bottom: 2rem;
+	}
+}

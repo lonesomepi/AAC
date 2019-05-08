@@ -1,0 +1,39 @@
+.facultyBioImage {
+  display: block;
+  margin: auto;
+}
+
+#dividingLine {
+  border-top: 1px solid #d0d0d0;
+  width: 84%;
+  margin: 1.8rem auto;
+}
+
+@media screen and (min-width: 600px) {
+
+
+.facultyProfile {
+  width: 84%;
+  margin: auto;
+}
+
+.facultyProfile p {
+  margin-left: 1.5rem;
+}
+
+.facultyBioImage {
+  float: left;
+  margin-right: 1.5rem;
+  width: 20%;
+  /* border: 1px solid #888; */
+  box-shadow: 5px 5px 10px #a0a0a0;
+}
+
+#dividingLine {
+  border-top: 1px solid #d0d0d0;
+  width: 84%;
+  margin: 1.2rem auto;
+}
+
+
+}

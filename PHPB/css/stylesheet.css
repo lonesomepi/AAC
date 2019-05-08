@@ -1,0 +1,260 @@
+	@media screen and (min-width: 600px) {
+
+		video {
+			width: 84%;
+		}
+
+		p {
+			line-height: 1.5;
+		}
+
+		section {
+			border-top: 2px solid #999;
+			border-right: 1px solid #c0c0c0;
+			border-bottom: 2px solid #999;
+			border-left: 1px solid #c0c0c0;
+			border-radius: 5px;
+			margin: 3rem auto 4rem auto;
+			/* margin: .91rem auto 4rem auto; */
+			padding: 0 0 2rem 0;
+			width: 95%;
+			max-width: 850px;
+			box-shadow: 20px 20px 20px #d0d0d0;
+		}
+
+		.apply button {
+			width: 98%;
+		}
+
+
+		/* quote quote quote quote */
+		/* quote quote quote quote */
+		/* quote quote quote quote */
+		/* quote quote quote quote */
+
+
+		.quoteBubble {
+			border-left: .3rem solid #5B9BD5; /* blue */
+		}
+
+		.mobile_quote_icon {
+			width: 8%;
+		}
+
+		/* .quoteBubble {
+			display: flex;
+			justify-content: space-between;
+			width: 84%;
+			margin: auto;
+			border: 1px solid #1C68AC;
+			box-shadow: 20px 20px 20px #f0f0f0;
+		} */
+
+		/* .st1{fill:#11B376;} */
+
+		/* .quote_icon_container {
+			width: 5%;
+		}
+
+		.alignBottom {
+			align-self: flex-end;
+		}
+
+
+		p.quoteSlug {
+			font-style: italic;
+			color: #999;
+		} */
+
+
+
+
+		/* END. quote quote quote quote */
+
+
+		footer li {
+			float: left;
+			border-right: 1px solid #777;
+			font-size: 1rem;
+			margin: .2rem 0;
+		}
+
+		footer h3 {
+			margin-top: 2.3rem;
+			margin-bottom: 1.4rem;
+		}
+
+	}
+
+	@media screen and (min-width: 992px) {
+
+		#dept img {
+			margin-left: 0;
+		}
+
+		#uf img {
+			margin-right: 0;
+		}
+
+		video {
+			width: 70%;
+		}
+
+		.top-container {
+		  padding: 30px;
+		}
+
+		h1 {
+			width: 100%;
+			max-width: 1250px;
+			/* width: 95%; */
+			padding-left: 1rem;
+		}
+
+		header dl {
+			display: none;
+		}
+
+		.mobileImage {
+			display: none;
+		}
+
+		.sidebar {
+			float: left;
+			display: block;
+			width: 25%;
+			max-width: 400px;
+			margin-bottom: .3rem;
+			border: 1px solid #d0d0d0;
+		}
+
+		.shell {
+			float: left;
+			width: 75%;
+		}
+
+		.shell dl {
+			display: block;
+		}
+
+		ul#sidebarList {
+			width: 100%;
+			margin: 0;
+			padding-left: 0;
+		}
+
+		#sidebarList li {
+			border-bottom: 1px solid #E28F41;
+			font-size: 1.3rem;
+			/* list-style-position: inside; */
+			list-style: none;
+			line-height: 3;
+			/* padding-left: 2rem; */
+			width: 100%;
+			margin: 0;
+		}
+
+		#sidebarList li:hover {
+			border-bottom: 1px solid #ffac5e;
+		}
+
+		#sidebarList li a {
+			text-decoration: none;
+			display: inline-block;
+			padding-left: 2rem;
+			height: 100%;
+			width: 100%;
+		}
+
+		#sidebarList li a:hover {
+			color: #49acff;
+		}
+
+		.desktopNav {
+			display: block;
+			z-index: 1;
+		}
+
+		.desktopImage {
+			display: block;
+		}
+
+		.headerMobile, .stickyMobile, #myHeaderMobile {display: none;}
+
+		#myHeader {
+			display: block;
+		}
+
+		.sticky {
+			display: block;
+			position: fixed;
+			top: 0;
+			width: 100%;
+		}
+
+		.header {
+			display: block;
+		}
+
+		.top-container {
+			background: #d62a2a;
+		}
+
+		header + .content {
+			padding-top: 0rem;
+		}
+
+		.desktopNav {
+			display: block;
+			background: #E28F41;
+			/* border-bottom: 1.49px solid white; */
+			/* border-bottom: 1px solid transparent; */
+			border-top: 1px solid #eee;
+			border-bottom: 1px solid #eee;
+			width: 100%;
+			margin: -1px auto 0 auto;
+		}
+
+		.desktopNav li {
+			overflow: hidden;
+			float: left;
+			text-align: center;
+			list-style: none;
+			text-decoration: none;
+			outline-style: solid;
+			outline-width: 1px;
+			outline-color: #fff;
+			/* outline-color: red; */
+			line-height: 1.5; /* this was changed from 2; */
+			font-size: 1rem; /* this was changed from 1rem */
+			font-weight: normal;
+			width: 14.28%;
+			/* background: #478af7; */
+			background: #E28F41;
+			padding: 0;
+			vertical-align: middle;
+			display: inline;
+		}
+
+		.desktopNav li a {
+			font-weight: lighter;
+			display: inline-block;
+			padding: .5rem;
+			width: 100%;
+			height: 100%;
+			text-decoration: none;
+			vertical-align: baseline;
+		}
+
+		.desktopNav li a:hover {
+			background: #ffac5e;
+			text-decoration: none;
+		}
+
+	}
+
+	@media screen and (min-width: 1284px) {
+		h1 {
+			padding-left: 0;
+		}
+	}

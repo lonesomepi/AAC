@@ -1,0 +1,105 @@
+
+#acceptedTable {
+  width: 100%;
+}
+
+#acceptedTable p {
+  font-size: 1rem;
+  margin-bottom: 1.3rem;
+}
+
+table {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: 100%;
+  margin: auto;
+  max-width: none;
+}
+
+th {
+  text-align: center;
+  width: 50%;
+}
+
+td {
+  line-height: 1.5;
+  width: 50%;
+  vertical-align: top;
+}
+
+td a:hover {
+  color: orange;
+}
+
+.shell h2 {
+    margin-bottom: 0;
+  }
+
+.shell h3 {
+  margin-top: 1.5rem;
+}
+
+.shell p {
+  margin-bottom: 2rem;
+}
+
+#profiles img.profile {
+  display: block;
+  margin: auto;
+  border: 1px solid red;
+  border-radius: 5px;
+  width: 20%;
+}
+
+.cohortProfiles {
+  width: 87%;
+  margin: auto;
+  margin-bottom: 1.5rem;
+  /* border: 1px solid red; */
+}
+
+.profile {
+  border: 1px solid #d0d0d0;
+  width: 33.3%;
+  float: left;
+  height: 35rem;
+  outline-style: solid;
+  outline-width: 1px;
+  outline-color: #f0f0f0;
+  padding-top: 1.3rem;
+  /* box-shadow: 10px 5px 5px #f0f0f0; */
+}
+
+.personPictureName {
+  /* float: left; */
+  width: 100%;
+}
+
+.personPictureName h5 {
+  text-align: center;
+}
+
+.cohortProfiles img {
+  border: 1px solid #737373;
+  border-radius: 5px;
+  width: 50%;
+  display: block;
+  margin: auto;
+}
+
+h5.noPictureProfile {
+  text-align: left;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+#container .cohortProfiles ul {
+  /* float: left; */
+  width: 100%;
+  margin-top: 0;
+}
+
+#container .cohortProfiles li {
+  list-style: none;
+  font-size: 1.1rem;
+}

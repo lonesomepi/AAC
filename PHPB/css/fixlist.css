@@ -1,0 +1,16 @@
+iframe {
+  float: left;
+}
+
+#schools {
+  float: left;
+}
+
+#slug {
+  font-style: italic;
+  color: #999;
+}
+
+.clear {
+  clear: both;
+}

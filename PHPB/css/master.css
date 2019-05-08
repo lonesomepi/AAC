@@ -1,0 +1,688 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+/*
+
+	break    @   600px | 992px
+
+	(there is one break at 1284px to push the h1 off when the page resizes and it sticks at 100% to the #container sidewall)
+
+	mobile width: 87%;
+	deskto width: 84%;
+
+	maxWidth     1500px
+	container    1250px
+	content
+	page
+	shell        75%
+	bubblewrap   1100px
+	wrap 			   1250px
+	article      992px
+	section      850px
+	sidebar
+
+	header image mobile:  1698px by 1131px
+	header image desktop: 1698px by 654px
+	23.583 in x 4.708 in @ 72 px/n | 566 x 113
+
+	@php: $page -> stylesheet -> header image
+
+
+	p max width  1250px
+
+	color: #E28F41; UF - Pale Orange, see "colors.css" for pallete
+					bold font links: google blue
+
+*/
+
+
+html {font-size: 16px;}
+
+body {
+	background: white;
+	min-width: 320px;
+}
+
+#container {
+	width: 100%;
+	max-width: 1250px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+.wrap {
+	max-width: 1250px;
+	margin: auto;
+}
+
+.maxWidth {
+	max-width: 1500px;
+	margin: auto;
+}
+
+article {
+	width: 100%;
+	max-width: 992px;
+	margin: auto;
+}
+
+#dept img {
+	width: 150px;
+	margin-left: .8rem;
+}
+
+#uf img {
+	width: 40px;
+	margin-right: .8rem;
+}
+
+#logoSection img:hover {
+	outline-color: #5d98f7;
+	outline-color: #5492f7;
+	outline-style: solid;
+	outline-width: 1px;
+	padding: .05rem;
+}
+
+
+/* sticky header */
+.header, .sticky, #myHeader {display: none;}
+
+header {
+	background: #478af7;
+	padding-top: .5rem;
+}
+
+#logoSection {
+	background: none;
+	/* padding-top: .5rem;
+	padding-bottom: 1rem; */
+	padding-top: .4rem;
+	padding-bottom: .8rem;
+	display: -webkit-flex;
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	margin: auto;
+	align-items: baseline;
+}
+
+header li a {color: white;}
+
+.stickyMobile {
+  display: block;
+  position: fixed;
+  top: 0;
+	width: 100%;
+}
+
+.headerMobile {
+  display: block;
+  /* padding: 10px 16px; */
+}
+
+header + .content {
+  padding-top: 0rem;
+}
+
+.desktopNav {
+	display: none;
+}
+
+header dt { /* define term, top */
+	outline-style: solid;
+	outline-width: 1px;
+	outline-color: #fff;
+	text-align: center;
+	list-style: none;
+	line-height: 2.5;
+	font-size: 1.3rem;
+	float: left;
+	width: 100%;
+	background: #E28F41;
+	color: white;
+	border-bottom: 1px solid white;
+	}
+
+header dd {
+	background: #478af7;
+}
+
+header dd ul li {
+	line-height: 5;
+	list-style: none;
+	width: 100%;
+	text-align: center;
+	border-bottom: 1px solid #fff;
+	font-size: 1.1rem;
+}
+
+header dd ul li a {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	text-decoration: none;
+}
+
+.newlyAdmittedBackground {
+	background: #E28F41;
+	font-weight: 500;
+}
+
+.newlyAdmittedBackground a {
+	color: white;
+}
+
+
+header img {
+  width: 100%;
+  margin-bottom: 0;
+	/* margin-top: 1px; */
+}
+
+video {
+	width: 100%;
+	display: block;
+	margin: auto;
+	margin-bottom: 1.3rem;
+}
+
+/* switches the image on resizing to Desktop */
+.mobileImage  {display: block;}
+.desktopImage {display: none;}
+
+.sidebar {
+	display: none;
+}
+
+h1 {
+	/* font-size: 2.8rem; */
+	font-size: 1.8rem;
+	color: #0021A5;
+	width: 87%;
+	padding: 1rem 0 2rem 0;
+	margin: .7rem auto 2.3rem auto;
+	border-bottom: 1px solid orange;
+	/* background: black; */
+}
+
+h2 {
+	font-size: 1.8rem;
+	width: 87%;
+	margin: 0 auto 2rem auto;
+	color: #6893ba;
+	color: #436f96; /* i like this blue */
+	color: #476b8c;
+	/* font-weight: 100; */
+}
+
+h3 {
+	font-size: 1.5rem;
+	width: 87%;
+	/* margin: 2.8rem auto 1.3rem auto; */
+	margin: 2rem auto 1.3rem auto;
+	color: #6C9AC3;
+}
+
+h4 {
+	font-size: 1.4rem;
+	color: #555;
+	width: 87%;
+	margin: 1.3rem auto;
+}
+
+/* unused: */
+
+h5 {
+	font-size: 1.2rem;
+	color: #555;
+	width: 87%;
+	margin: 1.3rem auto;
+}
+
+h6 {
+	font-size: 1rem;
+	color: #666;
+	width: 87%;
+	margin: 1.3rem auto;
+}
+
+p {
+	width: 87%;
+	margin: auto;
+	margin-top: 1.4rem;
+	line-height: 1.6;
+	font-size: 1.3rem;
+	color: #444;
+}
+
+li {
+	color: #444;
+}
+
+#container p, #container h3, #container h4, #container ul, #container ol {
+	/* max-width: 992px; */
+	max-width: 1250px;
+}
+
+#container ul, #container ol, .coreFeatures ul, .featureShell ul {
+	width: 87%;
+	margin: 1.7rem auto;
+	padding-left: .5rem;
+}
+
+#container li, .coreFeature li, .featureShell li {
+	width: 90%;
+	/* background: black; */
+	margin: 1rem auto;
+ 	font-size: 1.3rem;
+	line-height: 1.6;
+	/* change the line height in expansion 1.8 */
+	/* list-style-position: inside; */
+}
+
+section {
+	border-top: .4rem dotted #c0c0c0;
+	border-bottom: .4rem dotted #c0c0c0;
+	margin: 3rem auto 4rem auto;
+	/* margin: .91rem auto 4rem auto; */
+	padding: 0 0 1.5rem 0;
+	width: 100%;
+}
+
+table, tr, th, td {
+	color: #434343;
+	border: 1px solid #777;
+  padding: 8px;
+  margin: auto;
+  margin-bottom: 5px;
+  border-collapse: collapse;
+  font-size: 1rem;
+}
+
+table {
+	width: 100%;
+	max-width: 550px;
+	margin: auto;
+	margin-top: 2.3rem;
+}
+
+th.headerTH {
+	font-size: 1.4rem;
+}
+
+th {
+	font-weight:bold;
+	font-weight: 500;
+	padding: 5px;
+	text-align: center;
+	background: #6C9AC3;
+	color: #333;
+	color: white;
+}
+
+td {
+	padding: 5px;
+	line-height: 1.5;
+}
+
+.tdBackground {
+	background: #d7dde5;
+}
+
+/* special Features special Features special Features special Features */
+/* special Features special Features special Features special Features */
+/* special Features special Features special Features special Features */
+
+
+/* apply button  apply button  apply button  apply button  apply button  */
+
+#apply {
+	display: block;
+	margin: 1.9rem auto 2rem auto;
+	padding: .5rem 1rem;
+	width: 87%;
+	max-width: 550px;
+	border-radius: 3px;
+	font-size: 1.4rem;
+	line-height: 2;
+	letter-spacing: 3px;
+	font-weight: bold;
+	border: 5px solid #E28F41;
+	background: #fcfcfc;
+	background: linear-gradient(#42a1ec,#0070c9)
+}
+
+/* #apply:hover {
+	border: 5px solid #;
+} */
+
+#apply p {
+	width: 100%;
+	text-align: center;
+	color: white;
+	margin: 0;
+}
+
+#applyLink {
+	font-size: 1.6rem;
+}
+
+#apply a, #apply a:visited {
+	color: #0061ff;
+	color: #0055ff;
+	color: white;
+}
+
+/* #apply {
+	width: 100%;
+	height: 100%;
+	display: block;
+} */
+
+#apply:hover {
+	color: #f0f0f0;
+	background: linear-gradient(#51a9ee,#147bcd);
+	/* cursor: pointer; */
+	cursor: auto;
+}
+
+#apply a:active {
+	color: blue;
+	border: 2px solid #ffac5e;
+	border-radius: 5px;
+}
+
+a#apply:hover p {
+	color: #49acff;
+}
+
+/* slug slug slug slug slug slug slug slug slug slug slug */
+.slug {
+	margin-top:1rem;
+	font-style: italic;
+	color: #555;
+}
+
+/* bubbles bubbles bubbles bubbles */
+
+.bubbleWrap {
+	display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap;
+  /* max-width: 1100px; */
+  margin: auto;
+  margin-top: 1rem;
+}
+
+.bubble {
+  background: #5b9bd5;
+  border: .6rem solid #2573ba;
+	/* background: #3078BB;
+	border: .6rem solid #9AC4E5; */
+
+	/* The bubble fails the color contrast standards */
+	/* The bubble fails the color contrast standards */
+	/* The bubble fails the color contrast standards */
+ 	/* The bubble fails the color contrast standards */
+
+  margin: 1rem auto;
+  padding-bottom: 3rem;
+	width: 87%;
+	max-width: 1250px;
+}
+
+.bubble p, .bubble h3, .bubble h4, div.bubble ul li, .bubble ol li {
+  color: white;
+}
+
+.bubble h4 {
+	font-size: 1.7rem;
+	letter-spacing: 1.8px;
+}
+
+.bubble h3 {
+  margin-top: 2rem;
+}
+
+.bubbleLineSeparator {
+	border-top: 1px solid #c0c0c0;
+	border-top: 1px solid #95bee2;
+	padding-top: 1.4rem;
+	margin-top: 1.6rem;
+}
+
+/* quote quote quote quote */
+/* quote quote quote quote */
+/* quote quote quote quote */
+/* quote quote quote quote */
+
+.quoteBubble {
+	width: 84%;
+	margin: auto;
+	margin-top: 2.81rem;
+	border-left: .3rem solid #1C68AC; /* darkest blue */
+}
+
+
+.st1{fill:#B1F5DB;}
+
+
+.quote_icon_container {
+ display: none;
+}
+
+.mobile_quote_icon {
+	width: 15%;
+	margin: auto;
+}
+
+
+p.quoteSlug {
+	font-style: italic;
+	font-size: 1.1rem;
+	color: #707070;
+	width: 92%;
+	padding-left: .5rem;
+}
+
+p.quote_signature {
+	font-size: 1.2rem;
+	color: #555;
+}
+
+
+
+/* footer  footer   footer   footer   footer   footer */
+/* footer  footer   footer   footer   footer   footer */
+/* footer  footer   footer   footer   footer   footer */
+
+footer {
+	padding: 2rem 0 10px 0;
+	background: white;
+	margin: auto;
+	margin-top: 3.7rem;
+	max-width: 1500px;
+	border-top: 1px solid #d0d0d0;
+}
+
+footer ul {
+	width: 86%;
+	margin: auto;
+}
+
+footer li {
+	padding: 0px .6rem;
+	margin: 2rem 0;
+	font-size: 1.3rem;
+	list-style: none;
+}
+
+footer p {
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+
+nav p {
+	font-size: 1.2rem;
+}
+
+/* "Contact Section": physical address and social media */
+
+#contactSection p {
+	color: #444;
+	letter-spacing: 1px;
+	line-height: 1.5;
+	text-align: left;
+	width: 84%;
+	margin: auto;
+	margin-bottom: 2rem;
+	font-size: 1.25rem;
+}
+
+#contactSection h3 {
+	padding: .7rem 0 0 0;
+	font-size: 1.8rem;
+	letter-spacing: .1rem;
+	width: 84%;
+	margin: 1rem auto 1.3rem auto;
+}
+
+#contactSection a {
+	color: #436f96;
+	text-decoration: underline;
+}
+
+/* "Social Media Container" creates top border and space/padding for the icon's containers  */
+#socialMediaContainer {
+	border-top: 1px solid #d0d0d0;
+	width: 84%;
+	margin: auto;
+	padding-top: 1.3rem;
+	padding-bottom: 1.25rem;
+}
+
+/* "Social Media Icons" is the icons' overall spacing container */
+#socialMediaIcons {
+	width: 100%;
+	background: white;
+	/* background: red; */
+	min-width: 140px;
+	max-width: 180px;
+	margin: auto;
+}
+
+.socialmedia img {
+	display: block;
+	margin: auto;
+	opacity: 0.6;
+	height: 2rem;
+	width: 2rem;
+}
+
+.socialmedia img:hover {opacity: 1;}
+
+#frequentGeneralLinks {
+	padding: .5rem 0 .8rem 0;
+}
+
+#frequentGeneralLinks p {
+	font-size: .8rem;
+	margin: .5rem auto;
+}
+
+#googleAnalyticsSlug {
+	text-align: left;
+	font-style: italic;
+	margin-top: 15px;
+	font-size: .65rem;
+}
+
+/* links links links links links links links links */
+/* links links links links links links links links */
+/* links links links links links links links links */
+
+a {color: blue;}
+
+h4 a {
+	color: #6C9AC3;
+	text-decoration: none;
+}
+
+
+/* laws laws laws laws laws laws laws laws laws laws */
+/* laws laws laws laws laws laws laws laws laws laws */
+/* laws laws laws laws laws laws laws laws laws laws */
+/* laws laws laws laws laws laws laws laws laws laws */
+
+.blackBottomBorder {
+	border-bottom: 1px solid black;
+}
+
+.red {
+	color: red;
+}
+
+.orange {
+	background: #E28F41; /* UF - Pale Orange */
+}
+
+.noBorder {
+	border: none;
+}
+
+.normalWeight {
+	font-weight: normal;
+}
+
+.heavy {
+	font-weight: 800;
+}
+
+.marginTop {
+	margin-top: 10px;
+}
+
+.tiny {
+	font-size: .8rem;
+}
+
+.small {
+	font-size: 1rem;
+}
+
+.medium {
+	font-size: 2rem;
+}
+
+.bigNumber, .big {
+	line-height: normal;
+	font-size: 4rem;
+}
+
+.italic {
+	font-style: italic;
+}
+
+
+p.squeezed {
+	max-width: 500px;
+}
+
+
+.center {
+	text-align: center;
+}
+
+.clear {
+	clear: both;
+}
+
+/* resizes resizes resizes : "stylesheet.css" */

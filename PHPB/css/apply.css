@@ -1,0 +1,23 @@
+h2 {
+  margin-top: 1.8rem;
+}
+
+.shell a, a.googleColor {
+    color: #2A5DB0;
+}
+
+@media screen and (min-width: 600px) {
+
+  #container ol {
+    width: 87%;
+    padding-left: 0;
+  }
+
+  #container ol li {
+    margin-left: 0;
+    list-style-position: inside;
+    width: 100%;
+    font-size: 1.4rem;
+  }
+
+}

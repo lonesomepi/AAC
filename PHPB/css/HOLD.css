@@ -1,0 +1,12 @@
+a {text-decoration: none;}
+a:link,  a:visited {color:#0021a5;} /* blue */
+a:hover, a:active  {color:#ff4a00;} /* orange */
+/*.page p a, .page li a { /* dark blue * / border-bottom: 1px solid #0021A5;} */
+.page p a:link, .page p a:visited {color: #24b; /* blue */}
+.page li a:hover, .page li a:active, .page p a:hover, .page p a:active {color: #f40; /* orange */text-decoration: none;}
+nav a:link {display: inline-block;width: 100%;}
+nav a:link, nav a:visited {color: #FFFFCC;}
+nav li a:hover, nav p a:hover { /* keep, nav li background hover */background: #5791d2;}
+footer a:link,a:visited {color: #000066;text-decoration: none;}
+footer a:hover {color: #FF6600;}
+header li a:visited {color: white;}

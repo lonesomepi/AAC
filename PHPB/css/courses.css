@@ -1,0 +1,145 @@
+
+th {
+  background: #e0ebff;
+  background: #e8f0ff;
+  background: #eff5ff;
+  color: black;
+}
+
+th.headerTH {
+  background: #6C9AC3;
+  color: white;
+}
+
+a.googleColor {
+  color: #2A5DB0;
+}
+
+.bubble {
+  border: .2rem solid #2573ba;
+  width: 100%;
+  padding-bottom: 2.5rem;
+}
+
+#courses h3 {
+  font-weight: 300;
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+#courses p {
+  color: #30485A;
+  padding-bottom: 3rem;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+#courses dl {
+  padding-top: 0;
+  border: 1px solid #0C5698;
+  background: white;
+  width: 98%;
+  margin: auto;
+  margin-bottom: .4rem;
+  /* padding-bottom: 2rem; */
+  box-shadow: .1rem .1rem .3rem #0C3961;
+}
+
+#courses dt {
+  font-size: 1.2rem;
+  width: 100%;
+  margin: 0 auto;
+  color: #6C9AC3;
+  color: #3A5A73;
+  padding: 1rem 0 1rem 0;
+
+}
+
+#courses dt img {
+  width: .6rem;
+  height: .6rem;
+  margin-top: .6rem;
+  margin-right: 1rem;
+  margin-bottom: 0;
+  margin-left: 1rem;
+  /* background: black; */
+  float: left;
+}
+
+.spanContainer {
+  padding-right: 1rem;
+  /* background: gray; */
+  width: 60%;
+  float: left;
+}
+
+#courses dt span.idsCreditSlug {
+  font-style: italic;
+  font-size: .8rem;
+  margin-top: .3rem;
+  float: right;
+  width: 23%;
+  /* background: red; */
+  padding-right: 1rem;
+  text-align: right;
+}
+
+@media screen and (min-width: 600px) {
+
+  .bubble {
+    width: 84%;
+    margin-top: 2.81rem;
+    border: .6rem solid #2573ba;
+  }
+
+  #courses dl {
+    padding-top: 0;
+    border: 1px solid #0C5698;
+    background: white;
+    width: 87%;
+    margin: auto;
+    margin-bottom: .4rem;
+    /* padding-bottom: 2rem; */
+    box-shadow: .1rem .1rem .3rem #0C3961;
+  }
+
+  #courses h3 {
+    margin-bottom: 2.81rem;
+    font-size: 1.8rem;
+    font-weight: 300;
+  }
+
+  #courses dl:hover {
+    border: 1px solid #031628;
+    box-shadow: .1rem .1rem .3rem #031628;
+  }
+
+  #courses dt .spanContainer {
+    /* background: gray; */
+    width: 75%;
+  }
+
+  #courses dt .spanContainer span {
+    font-size: 1.3rem;
+  }
+
+  #courses dt span.idsCreditSlug {
+    width: 15%;
+  }
+
+
+  #courses dt span {
+    float: right;
+    width: 91%;
+  }
+
+
+
+  #courses dt:hover {
+    cursor: pointer;
+  }
+
+
+
+
+}

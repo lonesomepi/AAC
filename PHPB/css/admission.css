@@ -1,0 +1,15 @@
+#centerAddress {
+  padding: .4rem 0 .4rem .8rem;
+  border: 1px solid #c0c0c0;
+}
+
+#indicate_application {
+  border: 1px dashed #e0e0e0;
+  padding-bottom: 1.8rem;
+  width: 90%;
+  margin: 2rem auto;
+}
+
+.bubble {
+  max-width: 30rem;
+}

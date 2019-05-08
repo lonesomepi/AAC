@@ -1,0 +1,49 @@
+.shell dl {
+  display: block;
+}
+
+.shell dt { /* define term, top */
+  outline-style: none;
+  outline-width: none;
+  outline-color: none;
+  text-align: left;
+  list-style: none;
+  float: none;
+  line-height: 2.1;
+  font-size: 1.4rem;
+  font-weight: bold;
+  width: 83%;
+  margin: auto;
+  margin-top: 2rem;
+  background: white;
+  padding-bottom: 0rem;
+  padding-left: .5rem;
+  color: #004CC7;
+}
+
+.shell dt:hover {
+  cursor: pointer;
+  /* color: #387eed; */
+  color: #366dc4;
+  text-decoration: underline;
+}
+
+.shell dd {
+  line-height: 1.4;
+  padding: 1rem 0;
+  background: white;
+  line-height: 2.5;
+  font-size: 1.35rem;
+  color: #333;
+  font-weight: bold;
+  width: 83%;
+  margin: auto;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 2.5rem;
+  padding-left: .5rem;
+  background: white;
+}
+
+.shell dd a {
+  color: #2A5DB0;
+}

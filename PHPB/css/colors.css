@@ -1,0 +1,38 @@
+background, color {
+
+  /* blue */
+  #32425b; /* dark blue */
+  #405475; /* pale dark blue */
+  #478af7; /* original blue */
+  #394963; /* soft dark blue */
+  #77abff; /* pale blue core feature list */
+  #5779b2 /* passive blue */
+  #2A5DB0 /* google links */
+  #2200CC /* google live */
+  #0021A5 /* gator blue */
+
+  /* orange */
+  #FA4616; /* gator orange */
+  #ffd8ad; /* light orange */
+  #E28F41; /* UF - Pale Orange */
+
+  /* green  */
+  #32CD32;
+
+  /* gray */
+  #d0d0d0;
+
+
+  /* button and button: hover  */
+    /* background: linear-gradient(#42a1ec,#0070c9);
+    display: block;
+    margin: auto;
+    width: 60%;
+    margin: 1.8rem auto 2rem auto;
+    color: white;
+    border: 1px solid #07c;
+    border-radius: 4px;
+
+
+    cursor: pointer;
+  	background: linear-gradient(#51a9ee,#147bcd); */
