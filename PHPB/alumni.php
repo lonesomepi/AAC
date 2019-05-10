@@ -7,17 +7,13 @@
 ?>
 
 <div class="shell">
-
   <h2>Alumni Success</h2>
-
-    <h3>Cohorts</h3>
-
-    <p>Our inaugural class was small, but successful! Of the six students who applied, all six were admitted.</p>
-
+  <h3>Cohorts</h3>
+  <p>Our inaugural class was small, but successful! Of the six students who applied, all six were admitted.</p>
 
     <?php  /*
 
-    About Alumni Profiles:
+    // Alumni Profiles:
 
       Part 1 of 2: Alumni Profiles
 
@@ -40,7 +36,6 @@
     <h4>2014 PHPB Cohort &mdash; 100&#37; Admission</h4>
 
     <div class="cohortProfiles">
-
       <div class="profile">
         <div class="personPictureName">
           <img src="image/cohort/nathalie_abenoza.jpg" alt="">
